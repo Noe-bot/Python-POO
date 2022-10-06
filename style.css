@@ -1,0 +1,30 @@
+.formContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+body{
+    background-color: black;
+}
+
+p, h1, label{ 
+    color: white;
+}
+
+input{
+    margin: 5px 0;
+}
+
+.formPageTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.reversedLuigi{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
